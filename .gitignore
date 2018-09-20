@@ -1,0 +1,25 @@
+#logs
+*.log
+*.log.*
+
+#pids
+*.pid
+
+#ppa public keys
+*.asc*
+
+# markdown preview
+README.html
+
+# vscode editor
+.vscode/
+*.DS_Store
+
+# generated files
+data/
+
+# virtualenv
+.venv
+
+# mypy
+*.mypy_cache/
