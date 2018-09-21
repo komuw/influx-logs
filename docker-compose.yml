@@ -7,7 +7,7 @@ services:
     volumes:
       - ./etc/telegraf.conf:/etc/telegraf/telegraf.conf:ro
       - ./logs/myapp:/var/log/myapp
-      - ./log/myapp/myapp.log:/var/log/myapp/myapp.log
+      - ./logs/myapp/myapp.log:/var/log/myapp/myapp.log
     links:
       - influxdb
     ports:
