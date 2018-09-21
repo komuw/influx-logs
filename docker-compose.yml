@@ -6,7 +6,8 @@ services:
     image: telegraf:latest
     volumes:
       - ./etc/telegraf.conf:/etc/telegraf/telegraf.conf:ro
-      - ./volume/myapp:/var/log/myapp
+      - ./logs/myapp:/var/log/myapp
+      - ./log/myapp/myapp.log:/var/log/myapp/myapp.log
     links:
       - influxdb
     ports:
