@@ -17,6 +17,8 @@ README.html
 
 # generated files
 data/
+logs/
+
 
 # virtualenv
 .venv
