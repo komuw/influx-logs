@@ -17,4 +17,7 @@ Ideally, atleast the tail plugin should be supported for logs; https://github.co
 That plugin seems like it currently only work for metrics and not logs  
 
 
-Use logparser: https://github.com/influxdata/telegraf/tree/master/plugins/inputs/logparser
+Use logparser:   
+1. https://github.com/influxdata/telegraf/tree/master/plugins/inputs/logparser  
+2. https://www.influxdata.com/blog/telegraf-correlate-log-metrics-data-performance-bottlenecks/  
+
