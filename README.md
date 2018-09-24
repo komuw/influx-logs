@@ -14,4 +14,7 @@ Logs are pulled from the syslog measurement. Other log inputs and alternate log 
 I'll discontinue this adventure until more plugins can be used for logs.  
 
 Ideally, atleast the tail plugin should be supported for logs; https://github.com/influxdata/telegraf/tree/master/plugins/inputs/file   
-That plugin seems like it currently only work for metrics and not logs
+That plugin seems like it currently only work for metrics and not logs  
+
+
+Use logparser: https://github.com/influxdata/telegraf/tree/master/plugins/inputs/logparser
