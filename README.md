@@ -28,6 +28,6 @@ This json log:
 ```
 is matched by this logparser:  
 ```sh
-"age": %{NUMBER:age:int}, "name": "%{WORD:name:string}", "req_id": "%{WORD:req_id:string}"
+"age": %{WORD:age:string}, "name": "%{WORD:name:string}", "req_id": "%{WORD:req_id:string}"
 ```  
 use: https://grokdebug.herokuapp.com/ to test custom parsers
