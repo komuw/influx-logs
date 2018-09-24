@@ -10,7 +10,8 @@ leave user and password as empty
 It looks like ONLY syslog input (telegraf plugin) can be used for logs currently;   
 ```
 Logs are pulled from the syslog measurement. Other log inputs and alternate log measurement options will be available in future updates.
-``` -https://docs.influxdata.com/chronograf/v1.6/guides/analyzing-logs/    
+``` 
+-https://docs.influxdata.com/chronograf/v1.6/guides/analyzing-logs/    
 I'll discontinue this adventure until more plugins can be used for logs.  
 
 Ideally, atleast the tail plugin should be supported for logs; https://github.com/influxdata/telegraf/tree/master/plugins/inputs/file   
