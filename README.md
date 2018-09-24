@@ -21,3 +21,12 @@ Use logparser:
 1. https://github.com/influxdata/telegraf/tree/master/plugins/inputs/logparser  
 2. https://www.influxdata.com/blog/telegraf-correlate-log-metrics-data-performance-bottlenecks/  
 
+This json log:  
+```sh
+'{"age": 42, "name": "komuw", "req_id": "qe4252"}'
+```
+is matched by this logparser:  
+```sh
+"age": %{NUMBER:age:int}, "name": "%{WORD:name:string}", "req_id": "%{WORD:req_id:string}"
+```  
+use: https://grokdebug.herokuapp.com/ to test custom parsers
